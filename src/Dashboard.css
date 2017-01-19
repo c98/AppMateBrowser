@@ -1,0 +1,43 @@
+.ant-layout-container {
+  background: #fff;
+  position: relative;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.ant-layout-sider {
+  width: 224px;
+  float: left;
+}
+
+.ant-layout-content {
+  padding: 0 24px;
+  overflow: auto;
+  position: relative;
+}
+
+.popover {
+	position:fixed;
+	margin-top:30px;
+	right:30px;
+	z-index:100;
+}
+
+.popover_img_bg {
+	position:fixed;
+	right:30px;
+	z-index:100;
+}
+.popover_img {
+	position:fixed;
+	margin-top:6px;
+	right:40px;
+	z-index:100;
+	-webkit-animation:circle 6s infinite linear
+}
+
+@-webkit-keyframes circle{
+	0% { transform:rotate(0deg); }
+	100% { transform:rotate(360deg); }
+}
+
